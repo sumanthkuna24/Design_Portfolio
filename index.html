@@ -1,0 +1,2009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Design Portfolio | CS + UX Explorer</title>
+  <meta name="description" content="Portfolio of a Computer Science student exploring UX and Product Design. Showcasing research-driven design, user-centered problem solving, and structured processes.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Floating Navigation Bar -->
+  <nav class="navbar" id="main-navbar">
+    <div class="navbar-inner">
+      <a href="#home" class="logo">
+        Sumanth<span class="logo-dot"></span><span style="font-family: var(--font-sans); font-size: 0.85rem; font-weight: 500; color: var(--text-muted); margin-left: 0.5rem; letter-spacing: 0.05em; text-transform: uppercase;">UI/UX</span>
+      </a>
+      <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+        &#9776;
+      </button>
+      <ul class="nav-links" id="nav-links-list">
+        <li><a href="#home" class="active" id="nav-home">Home</a></li>
+        <li><a href="#work" id="nav-work" class="nav-highlight">Design Work</a></li>
+        <li><a href="#notes" id="nav-notes">Product Notes</a></li>
+        <li><a href="#about" id="nav-about">About</a></li>
+        <li><a href="#resume" id="nav-resume">Resume</a></li>
+        <li><a href="#contact" id="nav-contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Multi-page SPA Viewport -->
+  <main id="view-viewport">
+
+    <!-- HOME VIEW -->
+    <div id="home" class="view active-view enter-view">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container hero-content">
+          <span class="hero-meta">Computer Science & UX Design</span>
+          <h1 class="hero-title">Designing digital experiences through <span class="accent-text">research</span>, <span class="accent-text">product thinking</span>, and <span class="accent-text">user-centered</span> problem solving.</h1>
+          <p class="lead hero-desc">
+            I’m a Computer Science student exploring Product Design and UX through research, interaction design, and real-world product challenges. My work focuses on understanding user needs, identifying opportunities, and transforming insights into thoughtful digital experiences.
+          </p>
+          <div class="hero-ctas">
+            <a href="#work" class="btn btn-primary">View Design Work</a>
+            <a href="#resume" class="btn btn-secondary">Read Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Work Section -->
+      <section>
+        <div class="container">
+          <div class="section-header-row">
+            <div>
+              <span class="section-meta">Selected Case Studies</span>
+              <h2>Design Work</h2>
+            </div>
+            <a href="#work" class="btn-text">
+              All Projects 
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project 1: Tata Cliq Redesign -->
+            <div class="project-card featured-primary">
+              <div class="project-thumbnail-wrapper">
+                <img src="assets/tata_cliq_before_after.png" alt="Tata Cliq Redesign Before and After comparison" class="project-thumbnail">
+              </div>
+              <div class="project-details">
+                <div class="project-tags">
+                  <span class="project-tag">E-Commerce</span>
+                  <span class="project-tag">UX Research</span>
+                  <span class="project-tag">Case Study</span>
+                </div>
+                <h3>Tata Cliq Redesign</h3>
+                <p class="project-summary">
+                  Reducing shopping cart drop-offs and browse friction on India's premium e-commerce platform through heuristic analysis, quantitative checkout funnel research, and refined navigation architecture.
+                </p>
+                <div>
+                  <a href="#project-tata-cliq" class="btn btn-primary">Read Case Study</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2: Connect -->
+            <div class="project-card">
+              <div class="project-thumbnail-wrapper">
+                <img src="assets/conneqt_sketches_all.jpg" alt="Conneqt - Hyperlocal Discovery platform wireframe sketches" class="project-thumbnail">
+              </div>
+              <div class="project-details">
+                <div class="project-tags">
+                  <span class="project-tag">Product Discovery</span>
+                  <span class="project-tag">Hyperlocal</span>
+                  <span class="project-tag">UX Research</span>
+                </div>
+                <h3>Conneqt</h3>
+                <p class="project-summary">
+                  A product concept exploring how people discover professionals, services, opportunities, and meaningful collaborations within their local communities through a unified platform.
+                </p>
+                <div>
+                  <a href="#project-conneqt" class="btn btn-secondary">Read Case Study</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3: Hushh Wallet -->
+            <div class="project-card">
+              <div class="project-thumbnail-wrapper" style="display: flex; align-items: center; justify-content: center; background: radial-gradient(circle, #1e293b 0%, #0f172a 100%); padding: var(--space-xs);">
+                <div style="display: flex; gap: var(--space-xs); height: 100%; align-items: center; justify-content: center; transform: scale(0.65); transform-origin: center;">
+                  <div class="hushh-phone-mockup" style="width: 140px; border-width: 4px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+                    <img src="assets/hushh_screen1.png" alt="Hushh Wallet Home">
+                  </div>
+                  <div class="hushh-phone-mockup" style="width: 140px; border-width: 4px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+                    <img src="assets/hushh_screen2.png" alt="Hushh Wallet QR Detail">
+                  </div>
+                  <div class="hushh-phone-mockup" style="width: 140px; border-width: 4px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+                    <img src="assets/hushh_screen4.png" alt="Hushh Wallet Data Info">
+                  </div>
+                </div>
+              </div>
+              <div class="project-details">
+                <div class="project-tags">
+                  <span class="project-tag">UI/UX Design</span>
+                  <span class="project-tag">Figma</span>
+                  <span class="project-tag">Product Thinking</span>
+                  <span class="project-tag">Interaction Design</span>
+                </div>
+                <h3>Hushh Wallet</h3>
+                <p class="project-summary">
+                  Designed a complete secure digital data wallet system for Hushh, allowing users to securely store and share personal credentials in customizable cards with granular privacy levels.
+                </p>
+                <div>
+                  <a href="#project-hushh-wallet" class="btn btn-secondary">Read Case Study</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Design Process Section -->
+      <section>
+        <div class="container">
+          <span class="section-meta">Structured Methodology</span>
+          <h2>My Product Design Process</h2>
+          
+          <div class="process-widget">
+            <ul class="process-steps-list">
+              <li>
+                <button class="process-step-btn active" data-step="research">
+                  <span class="step-num">01</span>
+                  <span class="step-title-text">Research & Discover</span>
+                </button>
+              </li>
+              <li>
+                <button class="process-step-btn" data-step="insights">
+                  <span class="step-num">02</span>
+                  <span class="step-title-text">Synthesis & Insights</span>
+                </button>
+              </li>
+              <li>
+                <button class="process-step-btn" data-step="structure">
+                  <span class="step-num">03</span>
+                  <span class="step-title-text">Information Structure</span>
+                </button>
+              </li>
+              <li>
+                <button class="process-step-btn" data-step="wireframes">
+                  <span class="step-num">04</span>
+                  <span class="step-title-text">Wireframing</span>
+                </button>
+              </li>
+              <li>
+                <button class="process-step-btn" data-step="prototype">
+                  <span class="step-num">05</span>
+                  <span class="step-title-text">Interactive Prototyping</span>
+                </button>
+              </li>
+              <li>
+                <button class="process-step-btn" data-step="iteration">
+                  <span class="step-num">06</span>
+                  <span class="step-title-text">Testing & Iteration</span>
+                </button>
+              </li>
+            </ul>
+
+            <div class="process-details-pane">
+              <!-- Research -->
+              <div class="process-pane-content active" id="pane-research">
+                <span class="process-pane-meta">Phase 01</span>
+                <h3>Understanding Constraints & Intentions</h3>
+                <p>
+                  Every design begins with structured inquiry. I conduct heuristic reviews, competitor benchmarking, and qualitative user interviews to map out current friction. Combining my CS background, I analyze technical limits (APIs, loading states, database queries) early on to ensure designs are buildable and practical.
+                </p>
+              </div>
+              <!-- Insights -->
+              <div class="process-pane-content" id="pane-insights">
+                <span class="process-pane-meta">Phase 02</span>
+                <h3>Defining Opportunities from Friction</h3>
+                <p>
+                  Raw data is synthesized into visual user journey maps, core personas, and pain-point vectors. Instead of assuming what users want, I search for the discrepancy between developer assumptions and real behavior. I prioritize problems based on user impact and product feasibility.
+                </p>
+              </div>
+              <!-- Structure -->
+              <div class="process-pane-content" id="pane-structure">
+                <span class="process-pane-meta">Phase 03</span>
+                <h3>Mapping Information Architecture</h3>
+                <p>
+                  I organize database fields into clear, intuitive hierarchies. Using site maps, page hierarchies, and content graphs, I verify that search parameters and categories reflect how a human's mental model works rather than how SQL tables are structured.
+                </p>
+              </div>
+              <!-- Wireframes -->
+              <div class="process-pane-content" id="pane-wireframes">
+                <span class="process-pane-meta">Phase 04</span>
+                <h3>Testing Flows without Polish</h3>
+                <p>
+                  I construct low-fidelity digital wireframes to focus purely on flow, layout, and task completion rates. Stripping away visual branding, colors, and shadows lets us focus on core usability, copy readability, and screen transitions before visual aesthetics enter the conversation.
+                </p>
+              </div>
+              <!-- Prototype -->
+              <div class="process-pane-content" id="pane-prototype">
+                <span class="process-pane-meta">Phase 05</span>
+                <h3>Hi-Fi Polish & Interactive States</h3>
+                <p>
+                  High-fidelity components are organized under a centralized design system. Here, micro-interactions, responsive sizing, and edge cases (loading, network failure, empty states) are detailed. The interface is styled with premium, restrained visual cues and clear typography.
+                </p>
+              </div>
+              <!-- Iteration -->
+              <div class="process-pane-content" id="pane-iteration">
+                <span class="process-pane-meta">Phase 06</span>
+                <h3>Validating with Live Feedback</h3>
+                <p>
+                  Using Figma prototypes or functional HTML wrappers, I test the design with real users. Metrics such as completion time, error rate, and cognitive friction are cataloged. The design is then refined iteratively based on actual observations, closing the loop.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Product Notes Preview Section -->
+      <section>
+        <div class="container">
+          <div class="section-header-row">
+            <div>
+              <span class="section-meta">Critical Observations</span>
+              <h2>Product Notes & Critiques</h2>
+            </div>
+            <a href="#notes" class="btn-text">
+              Read All Notes 
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+          </div>
+
+          <div class="notes-grid">
+
+
+            <div class="note-card">
+              <div>
+                <div class="note-meta">
+                  <span>System Design</span>
+                  <span>May 2026</span>
+                </div>
+                <h3>Instagram Feed vs. Shopping</h3>
+                <p class="note-excerpt">
+                  An evaluation of cognitive task switching within Instagram's layout. Mapping the friction introduced by shifting attention from leisure viewing to commercial purchasing.
+                </p>
+              </div>
+              <a href="#note-instagram" class="btn-text">Read Analysis</a>
+            </div>
+
+            <div class="note-card">
+              <div>
+                <div class="note-meta">
+                  <span>AI & Trust</span>
+                  <span>April 2026</span>
+                </div>
+                <h3>AI Virtual Try-On Trust Loops</h3>
+                <p class="note-excerpt">
+                  Analyzing user confidence patterns in generative AI fashion fitting. Explaining how design patterns can build trust by exposing model confidence and rendering speeds.
+                </p>
+              </div>
+              <a href="#note-ai-tryon" class="btn-text">Read Analysis</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- AI-Assisted Workflow Preview -->
+      <section style="background-color: var(--bg-secondary);">
+        <div class="container ai-workflow-grid">
+          <div>
+            <span class="section-meta">Modern Tooling</span>
+            <h2>AI as a Design Accelerator</h2>
+            <p>
+              I view AI not as a generator of finished UI layouts, but as a cognitive partner that increases research and prototyping speeds. In my workflow, LLMs are integrated as tools for synthesis, exploration, and stress-testing.
+            </p>
+            <p style="color: var(--text-muted); font-size: 0.95rem;">
+              By delegating information synthesis and script generation, I can spend more time interviewing users, sketching high-level system flows, and refining detail interaction logic.
+            </p>
+          </div>
+          <div class="ai-tags-container">
+            <div class="ai-flow-card">
+              <h4>Research Synthesis</h4>
+              <p>Clustering text feedback from transcriptions into semantic pain points.</p>
+            </div>
+            <div class="ai-flow-card">
+              <h4>Ideation & Edge Cases</h4>
+              <p>Generating lists of visual edge cases (e.g. extremely long usernames, slow API responses).</p>
+            </div>
+            <div class="ai-flow-card">
+              <h4>Data Generation</h4>
+              <p>Creating realistic tables of placeholder data to test layout flexibilities.</p>
+            </div>
+            <div class="ai-flow-card">
+              <h4>Functional Code prototyping</h4>
+              <p>Spinning up micro HTML code sandboxes to test complex layout animations.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Preview -->
+      <section>
+        <div class="container about-preview-wrapper">
+          <div class="about-portrait-frame">
+            <img src="assets/about_portrait.png" alt="Abstract Portrait representing Design & Technology">
+          </div>
+          <div>
+            <span class="section-meta">The Person</span>
+            <h2>Exploring the Intersection of Technology and User Experience</h2>
+            <p>
+              As a Computer Science student, I’ve always been interested in how digital products are built. Through coursework, design projects, and product exploration, I became increasingly curious about the experiences people have while using those products.
+            </p>
+            <p>
+              That curiosity led me to UX and Product Design. I enjoy understanding user needs, analyzing digital experiences, and exploring how thoughtful design can make products more intuitive and effective. My technical background helps me think in systems, while design helps me focus on the people using them.
+            </p>
+            <a href="#about" class="btn btn-secondary">Read Full About Page</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="home-contact">
+        <div class="container contact-section-inner">
+          <div class="contact-info-block">
+            <div>
+              <span class="section-meta">Get in Touch</span>
+              <h2>Let's build something logical and human.</h2>
+              <p style="margin-top: var(--space-sm); max-width: 450px;">
+                I am looking for Product Design internships, research opportunities, and collaborations at the intersection of technology and human computer interaction.
+              </p>
+            </div>
+            <div class="contact-methods">
+              <div class="contact-method-item">
+                <h4>Email</h4>
+                <p><a href="mailto:sumanthkuna508@gmail.com" class="accent-link">sumanthkuna508@gmail.com</a></p>
+              </div>
+              <div class="contact-method-item">
+                <h4>Phone</h4>
+                <p><a href="tel:+919398506696" class="accent-link">+91 9398506696</a></p>
+              </div>
+              <div class="contact-method-item">
+                <h4>Location</h4>
+                <p>Phagwara, Punjab, India</p>
+              </div>
+              <div class="contact-socials">
+                <a href="https://www.linkedin.com/in/sumanthkuna/" target="_blank" class="btn-text">LinkedIn</a>
+                <span style="color: var(--text-dark);">/</span>
+                <a href="https://github.com/sumanthkuna24" target="_blank" class="btn-text">GitHub</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-form">
+            <form id="portfolio-contact-form">
+              <div class="form-group">
+                <label for="form-name">Name</label>
+                <input type="text" id="form-name" placeholder="E.g., Sarah Jenkins" required>
+              </div>
+              <div class="form-group">
+                <label for="form-email">Email</label>
+                <input type="email" id="form-email" placeholder="E.g., sarah@company.com" required>
+              </div>
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" rows="5" placeholder="Tell me about your product team or project opportunity..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+            <div id="form-success-message" style="display: none; text-align: center; padding: var(--space-md) 0;">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: var(--space-xs);"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <h3>Message Sent Successfully</h3>
+              <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.5rem;">Thank you! I will get back to you within 24 hours.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- WORK VIEW -->
+    <div id="work" class="view">
+      <section>
+        <div class="container">
+          <span class="section-meta">Portfolio</span>
+          <h1 style="margin-bottom: var(--space-sm);">Design Work</h1>
+          <p class="lead" style="max-width: 650px; margin-bottom: var(--space-lg);">
+            A selection of projects focusing on research synthesis, detailed user flows, system architectures, and interface logic.
+          </p>
+
+          <div class="projects-grid">
+            <!-- Tata Cliq -->
+            <div class="project-card featured-primary">
+              <div class="project-thumbnail-wrapper">
+                <img src="assets/tata_cliq_before_after.png" alt="Tata Cliq Redesign Before and After comparison" class="project-thumbnail">
+              </div>
+              <div class="project-details">
+                <div class="project-tags">
+                  <span class="project-tag">E-Commerce</span>
+                  <span class="project-tag">Heuristics</span>
+                  <span class="project-tag">UX Research</span>
+                </div>
+                <h3>Tata Cliq Redesign</h3>
+                <p class="project-summary">
+                  Solving conversion drop-offs on India's premier luxury e-commerce platform. Highlighting details of user checkout patterns, micro-copy restructuring, and layout refactoring to decrease shopping cart abandonment.
+                </p>
+                <div>
+                  <a href="#project-tata-cliq" class="btn btn-primary">Read Case Study</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Conneqt -->
+            <div class="project-card">
+              <div class="project-thumbnail-wrapper">
+                <img src="assets/conneqt_sketches_all.jpg" alt="Conneqt - Hyperlocal Discovery Platform sketches" class="project-thumbnail">
+              </div>
+              <div class="project-details">
+                <div class="project-tags">
+                  <span class="project-tag">Product Discovery</span>
+                  <span class="project-tag">UX Research</span>
+                  <span class="project-tag">Information Architecture</span>
+                </div>
+                <h3>Conneqt</h3>
+                <p class="project-summary">
+                  A hyperlocal discovery platform concept bridging community networking, verified professional search, interest-based spaces, and direct local service booking.
+                </p>
+                <div>
+                  <a href="#project-conneqt" class="btn btn-secondary">Read Case Study</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hushh Wallet -->
+            <div class="project-card">
+              <div class="project-thumbnail-wrapper" style="display: flex; align-items: center; justify-content: center; background: radial-gradient(circle, #1e293b 0%, #0f172a 100%); padding: var(--space-xs);">
+                <div style="display: flex; gap: var(--space-xs); height: 100%; align-items: center; justify-content: center; transform: scale(0.65); transform-origin: center;">
+                  <div class="hushh-phone-mockup" style="width: 140px; border-width: 4px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+                    <img src="assets/hushh_screen1.png" alt="Hushh Wallet Home">
+                  </div>
+                  <div class="hushh-phone-mockup" style="width: 140px; border-width: 4px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+                    <img src="assets/hushh_screen2.png" alt="Hushh Wallet QR Detail">
+                  </div>
+                  <div class="hushh-phone-mockup" style="width: 140px; border-width: 4px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.5);">
+                    <img src="assets/hushh_screen4.png" alt="Hushh Wallet Data Info">
+                  </div>
+                </div>
+              </div>
+              <div class="project-details">
+                <div class="project-tags">
+                  <span class="project-tag">UI/UX Design</span>
+                  <span class="project-tag">Figma</span>
+                  <span class="project-tag">User Flow</span>
+                  <span class="project-tag">Interaction Design</span>
+                </div>
+                <h3>Hushh Wallet &mdash; Secure Digital Data Wallet</h3>
+                <p class="project-summary">
+                  Designed a complete digital wallet system for Hushh as part of an assignment. The wallet allows users to securely store personal data in customizable cards across multiple categories (basic info, preferences, brand sizes, etc.).
+                </p>
+                <div>
+                  <a href="#project-hushh-wallet" class="btn btn-secondary">Read Case Study</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- PRODUCT NOTES VIEW -->
+    <div id="notes" class="view">
+      <section>
+        <div class="container">
+          <span class="section-meta">Weekly Critiques</span>
+          <h1 style="margin-bottom: var(--space-sm);">Product Notes</h1>
+          <p class="lead" style="max-width: 650px; margin-bottom: var(--space-lg);">
+            Short-form analytical essays breaking down usability issues, cognitive friction points, and system flows in popular consumer apps.
+          </p>
+
+          <div class="notes-grid">
+
+
+            <div class="note-card">
+              <div>
+                <div class="note-meta">
+                  <span>Product Psychology</span>
+                  <span>May 2026</span>
+                </div>
+                <h3>Instagram: Reconciling Feed & Shopping</h3>
+                <p class="note-excerpt">
+                  Exploring the cognitive cost of combining social interactions with commercial behaviors in a single application layout.
+                </p>
+              </div>
+              <a href="#note-instagram" class="btn-text">Read Note</a>
+            </div>
+
+            <div class="note-card">
+              <div>
+                <div class="note-meta">
+                  <span>HCI & AI</span>
+                  <span>April 2026</span>
+                </div>
+                <h3>AI Virtual Try-On Trust Cycles</h3>
+                <p class="note-excerpt">
+                  Analyzing how clear confidence displays and latency controls influence user feedback loops in generative apparel websites.
+                </p>
+              </div>
+              <a href="#note-ai-tryon" class="btn-text">Read Note</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- TECHNICAL PROJECTS VIEW -->
+    <div id="tech-projects" class="view">
+      <section>
+        <div class="container" style="max-width: 900px;">
+          <span class="section-meta">Engineering</span>
+          <h1 style="margin-bottom: var(--space-sm);">Technical Projects</h1>
+          <p class="lead" style="max-width: 650px; margin-bottom: var(--space-lg);">
+            A collection of web applications and multiplayer games highlighting full-stack coding, real-time synchronization, and clean interface systems.
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: var(--space-md);">
+            <!-- Project 1: Odd Strike -->
+            <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-subtle); padding: var(--space-md); border-radius: var(--radius-lg);">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: var(--space-xs); margin-bottom: var(--space-xs);">
+                <h3 style="margin-bottom: 0;">Odd Strike &mdash; Real-Time Multiplayer Web Game</h3>
+                <span style="font-size: 0.85rem; color: var(--accent); font-weight: 600;">Jan &mdash; Feb 2026</span>
+              </div>
+              <div style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: var(--space-sm); font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em;">
+                React.js, Socket.IO, MongoDB
+              </div>
+              <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: var(--space-sm); line-height: 1.6;">
+                Created a real-time multiplayer game with dynamic room creation and turn-based gameplay. Integrated WebSocket communication using Socket.IO for live dice rolls and state synchronization. Styled a responsive UI with animated player states and deployed using Vercel and Render.
+              </p>
+              <a href="https://github.com/sumanthkuna24" target="_blank" rel="noopener" class="btn btn-github">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                View on GitHub
+              </a>
+            </div>
+
+            <!-- Project 2: Smart Study Planner -->
+            <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-subtle); padding: var(--space-md); border-radius: var(--radius-lg);">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: var(--space-xs); margin-bottom: var(--space-xs);">
+                <h3 style="margin-bottom: 0;">Smart Study Planner &amp; Collaboration Platform</h3>
+                <span style="font-size: 0.85rem; color: var(--accent); font-weight: 600;">Nov 2024 &mdash; Jan 2025</span>
+              </div>
+              <div style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: var(--space-sm); font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em;">
+                React.js, Node.js, REST APIs
+              </div>
+              <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: var(--space-sm); line-height: 1.6;">
+                Engineered a full-stack web platform enabling students to create tasks, subjects, and generate timetables. Established secure authentication with login validation and personalized dashboards. Facilitated group collaboration through real-time communication features and shared academic resources.
+              </p>
+              <a href="https://github.com/sumanthkuna24" target="_blank" rel="noopener" class="btn btn-github">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                View on GitHub
+              </a>
+            </div>
+
+            <!-- Project 3: E-LMS -->
+            <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-subtle); padding: var(--space-md); border-radius: var(--radius-lg);">
+              <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: var(--space-xs); margin-bottom: var(--space-xs);">
+                <h3 style="margin-bottom: 0;">E-LMS &mdash; E-Learning Management System</h3>
+                <span style="font-size: 0.85rem; color: var(--accent); font-weight: 600;">Nov 2023 &mdash; Jan 2024</span>
+              </div>
+              <div style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: var(--space-sm); font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em;">
+                HTML, CSS, JavaScript
+              </div>
+              <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: var(--space-sm); line-height: 1.6;">
+                Constructed a web-based learning platform enabling students and instructors to access courses, study resources, and progress information centrally. Crafted responsive and user-friendly interface screens for login, course browsing, and learning modules.
+              </p>
+              <a href="https://github.com/sumanthkuna24" target="_blank" rel="noopener" class="btn btn-github">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ABOUT VIEW -->
+    <div id="about" class="view">
+      <section>
+        <div class="container about-grid">
+          <div>
+            <span class="section-meta">Biography</span>
+            <h1 style="margin-bottom: var(--space-md);">Sumanth</h1>
+            <p class="lead">
+              A Computer Science undergraduate with a deep fascination for Human-Computer Interaction (HCI) and digital product design.
+            </p>
+            <p>
+              I spent the early years of my college training in algorithms, database normalization, and system architecture. While I appreciated the raw efficiency of software, I frequently noticed a recurring problem: highly optimized backends were often hidden behind counter-intuitive interfaces that users struggled to operate.
+            </p>
+            <p>
+              This realization pushed me to transition into UX research and Product Design. I study how people process information, build mental models, and make decisions when interacting with software.
+            </p>
+            <p>
+              My background gives me a unique lens. I don't design interface shapes in a vacuum; I evaluate systems, data pipelines, load limits, and responsive constraints from day one. I collaborate closely with engineering teams because I speak their language, allowing us to turn complex ideas into buildable, sleek software designs.
+            </p>
+            <p>
+              When I'm not interviewing users or editing wireframes, you can find me writing code, exploring generative UI APIs, or critiquing retail checkout funnels in local coffee shops.
+            </p>
+            <div style="margin-top: var(--space-md); padding: var(--space-sm); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); background-color: var(--bg-secondary); display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); flex-wrap: wrap;">
+              <span style="font-size: 0.95rem; color: var(--text-secondary);">Looking for my full-stack engineering work?</span>
+              <a href="#tech-projects" class="btn btn-github" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">View Tech Projects</a>
+            </div>
+          </div>
+          <div>
+            <div class="about-portrait-frame" style="margin-bottom: var(--space-md);">
+              <img src="assets/about_portrait.png" alt="Sumanth Abstract Portrait Illustration">
+            </div>
+            <div class="case-study-callout">
+              <p>"Good design is not just layout decoration; it is clear logic made visible."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- RESUME VIEW -->
+    <div id="resume" class="view">
+      <section>
+        <div class="container" style="max-width: 900px;">
+          <div class="section-header-row">
+            <div>
+              <span class="section-meta">Credentials</span>
+              <h1>Interactive Resume</h1>
+            </div>
+            <a href="#" onclick="window.print(); return false;" class="btn btn-secondary">Print / Save PDF</a>
+          </div>
+
+          <!-- Contact Details Grid on CV -->
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-sm); border-bottom: 1px solid var(--border-subtle); padding-bottom: var(--space-md); margin-bottom: var(--space-md); font-size: 0.95rem;">
+            <div>
+              <h2 style="font-size: 1.8rem; font-family: var(--font-serif); margin-bottom: 4px;">Sumanth Kuna</h2>
+              <p style="color: var(--accent); font-weight: 500; margin-bottom: 0;">UI/UX Designer &amp; Developer</p>
+            </div>
+            <div style="text-align: right; color: var(--text-muted); font-size: 0.9rem; display: flex; flex-direction: column; gap: 2px;">
+              <span>Email: <a href="mailto:sumanthkuna508@gmail.com" class="accent-link">sumanthkuna508@gmail.com</a></span>
+              <span>Phone: <a href="tel:+919398506696" class="accent-link">+91 9398506696</a></span>
+              <span>LinkedIn: <a href="https://www.linkedin.com/in/sumanthkuna/" target="_blank" class="accent-link">linkedin.com/in/sumanthkuna/</a></span>
+              <span>GitHub: <a href="https://github.com/sumanthkuna24" target="_blank" class="accent-link">github.com/sumanthkuna24</a></span>
+            </div>
+          </div>
+
+          <!-- Education Section -->
+          <div class="resume-section">
+            <h3>Education</h3>
+            <div class="resume-item">
+              <div class="resume-date">2023 — Present</div>
+              <div class="resume-info">
+                <h4>Bachelor of Technology in Computer Science &amp; Engineering</h4>
+                <div class="resume-org">Lovely Professional University, Phagwara, Punjab | CGPA: 7.18</div>
+                <p class="resume-details">
+                  Focusing on software systems, web engineering, and human-computer interactions. Bridging logical computer science development with user-centered design paradigms.
+                </p>
+              </div>
+            </div>
+            <div class="resume-item">
+              <div class="resume-date">2021 — 2023</div>
+              <div class="resume-info">
+                <h4>Intermediate (PCM)</h4>
+                <div class="resume-org">Jawahar Navodaya Vidyalaya, Pedavegi, Andhra Pradesh | Percentage: 69%</div>
+              </div>
+            </div>
+            <div class="resume-item">
+              <div class="resume-date">2020 — 2021</div>
+              <div class="resume-info">
+                <h4>Matriculation</h4>
+                <div class="resume-org">Jawahar Navodaya Vidyalaya, Pedavegi, Andhra Pradesh | Percentage: 82%</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projects Section -->
+          <div class="resume-section">
+            <h3>Projects</h3>
+            <div class="resume-item">
+              <div class="resume-date">Jan — Feb 2026</div>
+              <div class="resume-info">
+                <h4>Odd Strike &mdash; Real-Time Multiplayer Web Game</h4>
+                <div class="resume-org">React.js, Socket.IO, MongoDB | <a href="https://github.com/sumanthkuna24" target="_blank" class="btn-text">GitHub Project</a></div>
+                <ul class="resume-details" style="padding-left: 1rem; margin-top: 0.5rem;">
+                  <li>Created a real-time multiplayer game with dynamic room creation and turn-based gameplay.</li>
+                  <li>Integrated WebSocket communication using Socket.IO for live dice rolls and state synchronization.</li>
+                  <li>Styled a responsive, interactive UI with animated player states, focusing on visual states and gameplay feedback.</li>
+                  <li>Achieved seamless low-latency multiplayer performance through optimized real-time communication handling.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="resume-item">
+              <div class="resume-date">Nov '24 — Jan '25</div>
+              <div class="resume-info">
+                <h4>Smart Study Planner &amp; Collaboration Platform</h4>
+                <div class="resume-org">React.js, Node.js, REST APIs | <a href="https://github.com/sumanthkuna24" target="_blank" class="btn-text">GitHub Project</a></div>
+                <ul class="resume-details" style="padding-left: 1rem; margin-top: 0.5rem;">
+                  <li>Engineered a full-stack platform enabling students to organize tasks, subjects, and generate timetables.</li>
+                  <li>Established secure authentication with login validation and personalized user dashboards.</li>
+                  <li>Facilitated study group collaborations through real-time communication features and shared resource directories.</li>
+                  <li>Produced a structured and interactive academic productivity system that improved organization and collaboration.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="resume-item">
+              <div class="resume-date">Nov '23 — Jan '24</div>
+              <div class="resume-info">
+                <h4>E-LMS (E-Learning Management System)</h4>
+                <div class="resume-org">HTML, CSS, JavaScript | <a href="https://github.com/sumanthkuna24" target="_blank" class="btn-text">GitHub Project</a></div>
+                <ul class="resume-details" style="padding-left: 1rem; margin-top: 0.5rem;">
+                  <li>Constructed a web-based learning platform enabling students and instructors to access courses and resources centrally.</li>
+                  <li><strong>UI/UX Design Focus:</strong> Designed user-friendly, responsive interface screens for secure login, course directories, and learning modules.</li>
+                  <li>Integrated vanilla JavaScript validation and layout drawer navigation to manage responsive page interactions.</li>
+                  <li>Strengthened foundational front-end UI design skills and understanding of digital learning workflows.</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Tech Projects CTA inside Resume -->
+            <div style="margin-top: var(--space-md); padding: var(--space-sm); border: 1px dashed var(--border-subtle); border-radius: var(--radius-md); background-color: var(--bg-secondary); display: flex; align-items: center; justify-content: space-between; gap: var(--space-sm); flex-wrap: wrap;">
+              <span style="font-size: 0.95rem; color: var(--text-secondary);">Looking for technical projects with detailed breakdowns &amp; codebases?</span>
+              <a href="#tech-projects" class="btn btn-github" style="padding: 0.5rem 1.2rem; font-size: 0.85rem;">View Tech Projects</a>
+            </div>
+          </div>
+
+          <!-- Professional Training Section -->
+          <div class="resume-section">
+            <h3>Training &amp; Simulations</h3>
+            <div class="resume-item">
+              <div class="resume-date">Jun — Jul 2025</div>
+              <div class="resume-info">
+                <h4>AI/ML Project Trainee &mdash; Skill Development Program</h4>
+                <div class="resume-org">Lovely Professional University | Phagwara, Punjab</div>
+                <ul class="resume-details" style="padding-left: 1rem; margin-top: 0.5rem;">
+                  <li>Gained hands-on understanding of NLP text preprocessing, model fine-tuning, and deployment workflows.</li>
+                  <li>Developed and deployed a **Legal Document Summarizer &amp; Risk Clause Detector** using Python, Streamlit, and a T5-base model.</li>
+                  <li>Designed a split-screen user interface to display legal documents alongside extracted summaries, highlighting risk clauses for legal reviews.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills Matrix -->
+          <div class="resume-section">
+            <h3>Skills Matrix</h3>
+            <div class="skills-container">
+              <div class="skill-category">
+                <h4>Languages &amp; DBs</h4>
+                <ul class="skill-list">
+                  <li>C++</li>
+                  <li>Python</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                  <li>MySQL</li>
+                </ul>
+              </div>
+              <div class="skill-category">
+                <h4>Frameworks &amp; Web</h4>
+                <ul class="skill-list">
+                  <li>React.js</li>
+                  <li>Node.js</li>
+                  <li>HTML &amp; CSS</li>
+                  <li>Tailwind CSS</li>
+                  <li>REST APIs</li>
+                </ul>
+              </div>
+              <div class="skill-category">
+                <h4>Tools &amp; Design</h4>
+                <ul class="skill-list">
+                  <li>Figma</li>
+                  <li>Git / GitHub</li>
+                  <li>UI/UX Design</li>
+                  <li>User Flow mapping</li>
+                  <li>Interaction Design</li>
+                  <li>Problem-Solving</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications & Achievements -->
+          <div class="resume-section">
+            <h3>Certifications &amp; Achievements</h3>
+            <div class="resume-item">
+              <div class="resume-date">Job Simulation</div>
+              <div class="resume-info">
+                <h4>BCG Strategic &amp; Experience Design Job Simulation</h4>
+                <div class="resume-org">Forage &mdash; BCG X | Aug 2025</div>
+              </div>
+            </div>
+            <div class="resume-item">
+              <div class="resume-date">UX Training</div>
+              <div class="resume-info">
+                <h4>The UX Design Process: Empathize, Define and Ideate</h4>
+                <div class="resume-org">Coursera &mdash; University of Minnesota | May 2025</div>
+              </div>
+            </div>
+            <div class="resume-item">
+              <div class="resume-date">Certifications</div>
+              <div class="resume-info">
+                <div style="font-weight: 500; color: var(--text-primary);">Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate (Jan 2026)</div>
+                <div style="font-weight: 500; color: var(--text-primary); margin-top: 4px;">Oracle Cloud Infrastructure 2024 Generative AI Certified Professional (Jul 2024)</div>
+                <div style="font-weight: 500; color: var(--text-primary); margin-top: 4px;">NPTEL Cloud Computing Certification (Apr 2025)</div>
+              </div>
+            </div>
+            <div class="resume-item">
+              <div class="resume-date">Achievements</div>
+              <div class="resume-info">
+                <h4>Hackathon Finalist &mdash; Binary Blitz</h4>
+                <div class="resume-org">Coding Ninjas (LPU) | Oct 2024</div>
+                <p class="resume-details">
+                  Qualified for the final round of the Binary Blitz Hackathon, selected among top finalist teams out of 200+ participating developer cohorts.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- CONTACT VIEW -->
+    <div id="contact" class="view">
+      <section>
+        <div class="container" style="max-width: 900px;">
+          <span class="section-meta">Get in Touch</span>
+          <h1 style="margin-bottom: var(--space-md);">Contact</h1>
+          
+          <div class="contact-section-inner" style="grid-template-columns: 1fr;">
+            <div class="contact-form" style="max-width: 600px; margin: 0 auto; width: 100%;">
+              <p style="text-align: center; margin-bottom: var(--space-md); color: var(--text-secondary);">
+                Have a project in mind, an internship opportunity, or want to talk about system UX? Fill out the form below or email directly to <a href="mailto:sumanthkuna508@gmail.com" class="btn-text">sumanthkuna508@gmail.com</a>.
+              </p>
+              
+              <form id="direct-contact-form">
+                <div class="form-group">
+                  <label for="direct-name">Name</label>
+                  <input type="text" id="direct-name" placeholder="E.g., Sarah Jenkins" required>
+                </div>
+                <div class="form-group">
+                  <label for="direct-email">Email</label>
+                  <input type="email" id="direct-email" placeholder="E.g., sarah@company.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="direct-message">Message</label>
+                  <textarea id="direct-message" rows="6" placeholder="Tell me about your product team or project opportunity..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+              </form>
+              <div id="direct-success-message" style="display: none; text-align: center; padding: var(--space-md) 0;">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: var(--space-xs);"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <h3>Message Sent Successfully</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-top: 0.5rem;">Thank you! I will get back to you within 24 hours.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- PRIMARY FEATURED PROJECT: TATA CLIQ CASE STUDY -->
+    <div id="project-tata-cliq" class="view case-study-view">
+      <div class="container">
+        <!-- 1. Hero Section -->
+        <div class="case-study-hero">
+          <a href="#work" class="btn-text" style="margin-bottom: var(--space-sm);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: rotate(180deg);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            Back to Design Work
+          </a>
+          <h1 class="case-study-title">Reimagining the Tata Cliq Shopping Experience</h1>
+          <p class="lead" style="max-width: 800px;">
+            A UX redesign driven by heuristic evaluation, competitor benchmarking, information architecture, and interface redesign.
+          </p>
+
+          <div class="case-study-meta-grid">
+            <div class="case-study-meta-item">
+              <h4>Role</h4>
+              <p>UX Designer</p>
+            </div>
+            <div class="case-study-meta-item">
+              <h4>Tools</h4>
+              <p>Figma</p>
+            </div>
+            <div class="case-study-meta-item">
+              <h4>Type</h4>
+              <p>Academic Product Design Project</p>
+            </div>
+            <div class="case-study-meta-item">
+              <h4>Methods</h4>
+              <p>Heuristic Evaluation, Benchmarking, IA, Wireframing, Prototyping</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-study-hero-img">
+          <img src="assets/tata_cliq_before_after.png" alt="Tata Cliq Redesign Case Study Hero Banner" style="width:100%; display:block;">
+        </div>
+
+        <div class="case-study-content">
+          <!-- 2. Project Overview -->
+          <h2>Project Overview</h2>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); margin-bottom: var(--space-md);">
+            <div>
+              <h3>Why Tata Cliq?</h3>
+              <p>
+                Tata Cliq is a major Indian e-commerce portal known for fashion and beauty. However, my preliminary audits revealed significant interface inconsistencies, confusing search patterns, and hidden checkout options that introduce substantial user friction compared to industry leaders.
+              </p>
+            </div>
+            <div>
+              <h3>The Challenge & Goal</h3>
+              <p>
+                <strong>Problem Statement:</strong> Users experience navigation confusion and form validation delays during e-commerce shopping, increasing checkout drop-off rates.
+                <br><br>
+                <strong>Project Goal:</strong> Audit the existing app architecture, benchmark features, map simplified journeys, and design high-fidelity solutions to create a cohesive, user-centered experience.
+              </p>
+            </div>
+          </div>
+
+          <!-- 3. Research & Evaluation -->
+          <h2>Research & Evaluation</h2>
+          <p>
+            To establish an objective basis for the redesign, I analyzed the existing interface structure. The scope of research was anchored on mapping flows, logging interaction friction, and contrasting layout patterns.
+          </p>
+          <div class="metric-row">
+            <div class="metric-card">
+              <div class="metric-number">13</div>
+              <div class="metric-label">Mobile Screens Evaluated</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number">90+</div>
+              <div class="metric-label">UX Observations Logged</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number">3</div>
+              <div class="metric-label">Competitors Compared</div>
+            </div>
+          </div>
+          
+          <div style="border: 1px solid var(--border-subtle); border-radius: 8px; padding: var(--space-sm); background: var(--bg-secondary); margin: var(--space-md) 0; text-align: center;">
+            <img src="assets/tata_cliq_screens_bubble.png" alt="13 Screens Evaluated Diagram" style="max-width: 100%; display: inline-block;">
+            <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">The 13 screens audited across the user journey</div>
+          </div>
+
+          <!-- 4. Heuristic Evaluation -->
+          <h2>Heuristic Evaluation</h2>
+          <p>
+            Applying Nielsen's Usability Heuristics, I identified core interface errors where the app broke expectations or added cognitive load.
+          </p>
+
+          <div style="display: grid; grid-template-columns: 1fr; gap: var(--space-sm); margin: var(--space-md) 0;">
+            <!-- Issue Card 1 -->
+            <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-subtle); padding: var(--space-sm) var(--space-md); border-radius: 8px;">
+              <span style="font-size: 0.75rem; text-transform: uppercase; color: var(--accent); font-weight: 600;">Issue 1: Bottom Navigation Inconsistency</span>
+              <h4 style="margin: 0.25rem 0; font-family: var(--font-sans); text-transform: none; letter-spacing: 0;">Silent Bottom Nav Relabeling</h4>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+                <strong>Impact on users:</strong> The tab labels change silently depending on the section (e.g., swapping "Drip" for "Luxé"), breaking predictability and navigation confidence.
+              </p>
+              <p style="font-size: 0.9rem; color: var(--accent); margin-bottom: 0;">
+                <strong>Opportunity:</strong> Lock bottom tab bars, labels, and icons globally so the core navigation grid remains stable.
+              </p>
+            </div>
+
+            <!-- Issue Card 2 -->
+            <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-subtle); padding: var(--space-sm) var(--space-md); border-radius: 8px;">
+              <span style="font-size: 0.75rem; text-transform: uppercase; color: var(--accent); font-weight: 600;">Issue 2: Checkout Form Obstacles</span>
+              <h4 style="margin: 0.25rem 0; font-family: var(--font-sans); text-transform: none; letter-spacing: 0;">Manual Address & Coupon Entry</h4>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+                <strong>Impact on users:</strong> Users are forced to manually enter long address forms and copy-paste discount codes, causing cart abandonment.
+              </p>
+              <p style="font-size: 0.9rem; color: var(--accent); margin-bottom: 0;">
+                <strong>Opportunity:</strong> Implement Google Maps address auto-fill and show applicable coupons as instantly clickable options.
+              </p>
+            </div>
+
+            <!-- Issue Card 3 -->
+            <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-subtle); padding: var(--space-sm) var(--space-md); border-radius: 8px;">
+              <span style="font-size: 0.75rem; text-transform: uppercase; color: var(--accent); font-weight: 600;">Issue 3: Product Listing Friction</span>
+              <h4 style="margin: 0.25rem 0; font-family: var(--font-sans); text-transform: none; letter-spacing: 0;">Opaque Color & Size Details</h4>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.5rem;">
+                <strong>Impact on users:</strong> Color and size variants are hidden on listing cards, forcing users to click back-and-forth between pages to verify availability.
+              </p>
+              <p style="font-size: 0.9rem; color: var(--accent); margin-bottom: 0;">
+                <strong>Opportunity:</strong> Show color swatches and size indicators directly on product listing cards.
+              </p>
+            </div>
+          </div>
+
+          <!-- 5. Competitor Benchmarking -->
+          <h2>Competitor Benchmarking</h2>
+          <p>
+            I benchmarked Tata Cliq against Myntra, Ajio, and Nykaa Fashion across core dimensions to identify industry standard patterns and opportunity gaps.
+          </p>
+
+          <h3 style="font-size: 1.25rem; margin-top: var(--space-md); font-family: var(--font-sans); text-transform: none; letter-spacing: 0;">Competitor Feature Matrix</h3>
+          <div style="overflow-x: auto; margin: var(--space-md) 0; border: 1px solid var(--border-subtle); border-radius: 8px;">
+            <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.85rem; background: var(--bg-secondary);">
+              <thead>
+                <tr style="border-bottom: 1px solid var(--border-subtle); background: var(--bg-tertiary);">
+                  <th style="padding: 0.75rem var(--space-sm); font-weight: 600;">Feature / Function</th>
+                  <th style="padding: 0.75rem var(--space-sm); font-weight: 600; text-align: center; color: var(--accent);">Tata Cliq</th>
+                  <th style="padding: 0.75rem var(--space-sm); font-weight: 600; text-align: center;">Myntra</th>
+                  <th style="padding: 0.75rem var(--space-sm); font-weight: 600; text-align: center;">AJIO</th>
+                  <th style="padding: 0.75rem var(--space-sm); font-weight: 600; text-align: center;">Nykaa</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- NAVIGATION & SEARCH -->
+                <tr style="background: var(--bg-tertiary); font-weight: 600; font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase;">
+                  <td colspan="5" style="padding: 0.5rem var(--space-sm); color: var(--text-muted);">Navigation & Search</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 0.6rem var(--space-sm);">Bottom Navigation Bar</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 0.6rem var(--space-sm);">Stable Nav Labels Across Sections</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 0.6rem var(--space-sm);">Search Scroll Affordance Indicator</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                </tr>
+                
+                <!-- PRODUCT DISCOVERY -->
+                <tr style="background: var(--bg-tertiary); font-weight: 600; font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase;">
+                  <td colspan="5" style="padding: 0.5rem var(--space-sm); color: var(--text-muted);">Product Discovery</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 0.6rem var(--space-sm);">Colour Swatches on Listing Cards</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #f59e0b; font-weight: bold; padding: 0.6rem var(--space-sm);">~</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 0.6rem var(--space-sm);">Size Availability on Listing Cards</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #f59e0b; font-weight: bold; padding: 0.6rem var(--space-sm);">~</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                </tr>
+
+                <!-- CART & CHECKOUT -->
+                <tr style="background: var(--bg-tertiary); font-weight: 600; font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase;">
+                  <td colspan="5" style="padding: 0.5rem var(--space-sm); color: var(--text-muted);">Cart & Checkout</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 0.6rem var(--space-sm);">Address Auto-fill (Google Maps)</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 0.6rem var(--space-sm);">Auto-applied / Pre-filled Coupons</td>
+                  <td style="text-align: center; color: #f59e0b; font-weight: bold; padding: 0.6rem var(--space-sm);">~</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #f59e0b; font-weight: bold; padding: 0.6rem var(--space-sm);">~</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 0.6rem var(--space-sm);">Guest Checkout Option</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                </tr>
+                
+                <!-- VISUAL DESIGN & UX -->
+                <tr style="background: var(--bg-tertiary); font-weight: 600; font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase;">
+                  <td colspan="5" style="padding: 0.5rem var(--space-sm); color: var(--text-muted);">Visual Design & UX</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 0.6rem var(--space-sm);">Consistent App-wide Design System</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                </tr>
+                <tr style="border-bottom: 1px solid var(--border-subtle);">
+                  <td style="padding: 0.6rem var(--space-sm);">WCAG-Compliant Tap Targets</td>
+                  <td style="text-align: center; color: #ef4444; font-weight: bold; padding: 0.6rem var(--space-sm);">✗</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #10b981; font-weight: bold; padding: 0.6rem var(--space-sm);">✓</td>
+                  <td style="text-align: center; color: #f59e0b; font-weight: bold; padding: 0.6rem var(--space-sm);">~</td>
+                </tr>
+              </tbody>
+            </table>
+            <div style="padding: 0.5rem var(--space-sm); font-size: 0.75rem; color: var(--text-muted); background: var(--bg-tertiary); display: flex; gap: var(--space-sm);">
+              <span><strong>✓</strong> Available</span>
+              <span><strong>✗</strong> Not available</span>
+              <span><strong>~</strong> Partial / Limited</span>
+            </div>
+          </div>
+
+          <h3 style="font-size: 1.25rem; margin-top: var(--space-md); font-family: var(--font-sans); text-transform: none; letter-spacing: 0;">Strategic Recommendations</h3>
+          <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-sm); margin: var(--space-md) 0;">
+            <div style="background: var(--bg-secondary); border: 1px solid var(--border-subtle); padding: var(--space-sm); border-radius: 8px; font-size: 0.9rem;">
+              <h4 style="font-size: 0.95rem; color: var(--accent); margin-bottom: 0.25rem; text-transform: none; letter-spacing: 0; font-family: var(--font-sans);">Listing Cards</h4>
+              <p style="color: var(--text-secondary); line-height: 1.5; margin-bottom: 0;">
+                Show colour swatches and size availability directly on product cards. This reduces page-switching tabs and helps users shortlist items quickly.
+              </p>
+            </div>
+            <div style="background: var(--bg-secondary); border: 1px solid var(--border-subtle); padding: var(--space-sm); border-radius: 8px; font-size: 0.9rem;">
+              <h4 style="font-size: 0.95rem; color: var(--accent); margin-bottom: 0.25rem; text-transform: none; letter-spacing: 0; font-family: var(--font-sans);">Global Navigation</h4>
+              <p style="color: var(--text-secondary); line-height: 1.5; margin-bottom: 0;">
+                Lock bottom tab labels and icons across all sections (e.g. Drip/Luxé swapping) to secure navigational predictability.
+              </p>
+            </div>
+            <div style="background: var(--bg-secondary); border: 1px solid var(--border-subtle); padding: var(--space-sm); border-radius: 8px; font-size: 0.9rem;">
+              <h4 style="font-size: 0.95rem; color: var(--accent); margin-bottom: 0.25rem; text-transform: none; letter-spacing: 0; font-family: var(--font-sans);">Checkout Optimization</h4>
+              <p style="color: var(--text-secondary); line-height: 1.5; margin-bottom: 0;">
+                Integrate Google Maps address autocomplete and pre-apply coupons to reduce cart-to-conversion friction.
+              </p>
+            </div>
+          </div>
+
+          <div class="case-study-callout">
+            <p><strong>Key Benchmarking Insight:</strong> Competitors like Myntra prioritize checkout speed and instant product evaluation directly on listing cards, while Tata Cliq hides options, increasing steps and task-switching friction.</p>
+          </div>
+
+          <!-- 6. Key Opportunities -->
+          <h2>Key Opportunities</h2>
+          <p>
+            Based on research and competitive data, I structured the redesign around four core opportunities:
+          </p>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-sm); margin: var(--space-md) 0;">
+            <div style="background: var(--bg-secondary); padding: var(--space-sm); border: 1px solid var(--border-subtle); border-radius: 8px;">
+              <h4 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.25rem;">1. Lock Navigation Predictability</h4>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0;">Keep navigation tab labels and categories identical app-wide to prevent confusion.</p>
+            </div>
+            <div style="background: var(--bg-secondary); padding: var(--space-sm); border: 1px solid var(--border-subtle); border-radius: 8px;">
+              <h4 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.25rem;">2. Flatten Information Hierarchy</h4>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0;">Redefine main categories and menus to help users scan product directories faster.</p>
+            </div>
+            <div style="background: var(--bg-secondary); padding: var(--space-sm); border: 1px solid var(--border-subtle); border-radius: 8px;">
+              <h4 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.25rem;">3. Simplify Product Discovery</h4>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0;">Show size and color options on product list cards to reduce detail page visits.</p>
+            </div>
+            <div style="background: var(--bg-secondary); padding: var(--space-sm); border: 1px solid var(--border-subtle); border-radius: 8px;">
+              <h4 style="font-size: 1rem; color: var(--accent); margin-bottom: 0.25rem;">4. Streamline Checkout Funnels</h4>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0;">Use maps autocomplete and auto-applied checkout discount codes.</p>
+            </div>
+          </div>
+
+          <!-- 7. Information Architecture -->
+          <h2>Information Architecture</h2>
+          <p>
+            I mapped the existing information structure to simplify navigation hierarchies and keep categories consistent.
+          </p>
+          <div style="border: 1px solid var(--border-subtle); border-radius: 8px; padding: var(--space-sm); background: var(--bg-secondary); margin: var(--space-md) 0; text-align: center;">
+            <img src="assets/tata_cliq_ia.png" alt="Tata Cliq Information Architecture Node Map" style="max-width: 100%; display: inline-block;">
+            <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.5rem;">Visual mapping of navigation structures and menus</div>
+          </div>
+
+          <!-- 8. User Flow -->
+          <h2>User Flow</h2>
+          <p>
+            Below is the primary shopping flow designed to guide users from initial discovery to successful checkout with minimal friction.
+          </p>
+          <div style="background: var(--bg-secondary); border: 1px solid var(--border-subtle); padding: var(--space-md); border-radius: 8px; margin: var(--space-md) 0;">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-sm); text-align: center;">
+              <div style="background: var(--bg-tertiary); padding: 0.5rem 1rem; border-radius: 4px; border: 1px solid var(--border-subtle); flex: 1; min-width: 120px;">
+                <span style="font-size: 0.75rem; color: var(--accent); display: block; font-weight: 600;">1. Browse</span> Search / Category
+              </div>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="transform: rotate(0deg); color: var(--text-muted);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              
+              <div style="background: var(--bg-tertiary); padding: 0.5rem 1rem; border-radius: 4px; border: 1px solid var(--border-subtle); flex: 1; min-width: 120px;">
+                <span style="font-size: 0.75rem; color: var(--accent); display: block; font-weight: 600;">2. Evaluate</span> Listing Details
+              </div>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="transform: rotate(0deg); color: var(--text-muted);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              
+              <div style="background: var(--bg-tertiary); padding: 0.5rem 1rem; border-radius: 4px; border: 1px solid var(--border-subtle); flex: 1; min-width: 120px;">
+                <span style="font-size: 0.75rem; color: var(--accent); display: block; font-weight: 600;">3. Selection</span> Details (PDP)
+              </div>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="transform: rotate(0deg); color: var(--text-muted);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              
+              <div style="background: var(--bg-tertiary); padding: 0.5rem 1rem; border-radius: 4px; border: 1px solid var(--border-subtle); flex: 1; min-width: 120px;">
+                <span style="font-size: 0.75rem; color: var(--accent); display: block; font-weight: 600;">4. Cart</span> Auto-Applied Codes
+              </div>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="transform: rotate(0deg); color: var(--text-muted);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              
+              <div style="background: var(--bg-tertiary); padding: 0.5rem 1rem; border-radius: 4px; border: 1px solid var(--border-focus); flex: 1; min-width: 120px;">
+                <span style="font-size: 0.75rem; color: var(--accent); display: block; font-weight: 600;">5. Checkout</span> Auto-fill Address
+              </div>
+            </div>
+          </div>
+
+          <!-- 9. Mid-Fidelity Design -->
+          <h2>Mid-Fidelity Design</h2>
+          <p>
+            During the layout phase, I built wireframes to test navigation flows and details positioning. Stripping away visual details let me focus on structural solutions.
+          </p>
+          <div style="border-left: 3px solid var(--accent); background: var(--bg-secondary); padding: var(--space-sm); border-radius: 0 8px 8px 0; margin-bottom: var(--space-md);">
+            <h4 style="font-size: 1rem; margin-bottom: 0.25rem; font-family: var(--font-sans); text-transform: none; letter-spacing: 0;">Design Rationale: What Changed & Why?</h4>
+            <p style="font-size: 0.95rem; margin-bottom: 0; color: var(--text-secondary);">
+              I consolidated the checkout steps into an accordion flow. This keeps checkout totals constantly visible on desktop or easily expandable on mobile, maintaining context and reducing validation errors.
+            </p>
+          </div>
+
+          <!-- 10. High-Fidelity Design -->
+          <h2>High-Fidelity Design</h2>
+          <p>
+            The final redesign applies a clean, premium visual direction using high-contrast cards and refined typography.
+          </p>
+
+          <!-- Visual Grid Comparison -->
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-sm); margin: var(--space-md) 0; align-items: start;">
+            <!-- Column 1: Home Comparison -->
+            <div style="border: 1px solid var(--border-subtle); border-radius: 12px; padding: var(--space-xs); background: var(--bg-secondary);">
+              <h3 style="font-size: 1.1rem; text-align: center; margin-bottom: var(--space-xs); font-family: var(--font-sans); text-transform: none; letter-spacing: 0;">Home Page UX</h3>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
+                <div>
+                  <h4 style="font-size: 0.7rem; text-align: center; color: var(--text-muted); margin-bottom: 0.25rem;">Before</h4>
+                  <img src="assets/tata_cliq_before_home.jpg" alt="Original home screen" style="width: 100%; border-radius: 4px; border: 1px solid var(--border-subtle); display: block;">
+                </div>
+                <div>
+                  <h4 style="font-size: 0.7rem; text-align: center; color: var(--accent); margin-bottom: 0.25rem;">After</h4>
+                  <img src="assets/tata_cliq_redesign_home.png" alt="Redesigned home screen" style="width: 100%; border-radius: 4px; border: 1px solid var(--border-focus); display: block;">
+                </div>
+              </div>
+            </div>
+            
+            <!-- Column 2: Categories Comparison -->
+            <div style="border: 1px solid var(--border-subtle); border-radius: 12px; padding: var(--space-xs); background: var(--bg-secondary);">
+              <h3 style="font-size: 1.1rem; text-align: center; margin-bottom: var(--space-xs); font-family: var(--font-sans); text-transform: none; letter-spacing: 0;">Categories Menu UX</h3>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
+                <div>
+                  <h4 style="font-size: 0.7rem; text-align: center; color: var(--text-muted); margin-bottom: 0.25rem;">Before</h4>
+                  <img src="assets/tata_cliq_before_categories.jpg" alt="Original categories screen" style="width: 100%; border-radius: 4px; border: 1px solid var(--border-subtle); display: block;">
+                </div>
+                <div>
+                  <h4 style="font-size: 0.7rem; text-align: center; color: var(--accent); margin-bottom: 0.25rem;">After</h4>
+                  <img src="assets/tata_cliq_redesign_categories.png" alt="Redesigned categories screen" style="width: 100%; border-radius: 4px; border: 1px solid var(--border-focus); display: block;">
+                </div>
+              </div>
+            </div>
+
+            <!-- Column 3: PDP Comparison -->
+            <div style="border: 1px solid var(--border-subtle); border-radius: 12px; padding: var(--space-xs); background: var(--bg-secondary);">
+              <h3 style="font-size: 1.1rem; text-align: center; margin-bottom: var(--space-xs); font-family: var(--font-sans); text-transform: none; letter-spacing: 0;">Product Details (PDP)</h3>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
+                <div>
+                  <h4 style="font-size: 0.7rem; text-align: center; color: var(--text-muted); margin-bottom: 0.25rem;">Before</h4>
+                  <img src="assets/tata_cliq_before_pdp.jpg" alt="Original PDP screen" style="width: 100%; border-radius: 4px; border: 1px solid var(--border-subtle); display: block;">
+                </div>
+                <div>
+                  <h4 style="font-size: 0.7rem; text-align: center; color: var(--accent); margin-bottom: 0.25rem;">After</h4>
+                  <img src="assets/tata_cliq_redesign_pdp.png" alt="Redesigned PDP screen" style="width: 100%; border-radius: 4px; border: 1px solid var(--border-focus); display: block;">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="background: var(--bg-secondary); padding: var(--space-sm); border: 1px solid var(--border-subtle); border-radius: 8px; margin: var(--space-md) 0;">
+            <h4 style="font-family: var(--font-sans); text-transform: none; font-size: 1rem; margin-bottom: 0.25rem; color: var(--text-primary);">Key Improvements Highlight:</h4>
+            <ul style="padding-left: var(--space-md); font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 0;">
+              <li><strong>Simplified Header Navigation:</strong> Removed nested sub-menus to focus categories.</li>
+              <li><strong>Exposed Variant Details:</strong> Displayed sizes and color options directly on product listing cards.</li>
+              <li><strong>One-Tap Checkout Accordion:</strong> Aggregated checkout steps onto a single view with Google address autocomplete.</li>
+            </ul>
+          </div>
+
+          <!-- 11. UI Foundation -->
+          <h2>UI Foundation</h2>
+          <p>
+            The redesign is guided by specific typography, color systems, and components to ensure visual consistency.
+          </p>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-sm); margin: var(--space-md) 0;">
+            <div style="background: var(--bg-secondary); padding: var(--space-sm); border: 1px solid var(--border-subtle); border-radius: 8px;">
+              <h4 style="font-size: 0.9rem; color: var(--text-primary); margin-bottom: 0.25rem;">Typography</h4>
+              <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0;">Headings: Playfair Display (Luxury/Editorial)<br>Body & UI: Plus Jakarta Sans (Clean/Modern)</p>
+            </div>
+            <div style="background: var(--bg-secondary); padding: var(--space-sm); border: 1px solid var(--border-subtle); border-radius: 8px;">
+              <h4 style="font-size: 0.9rem; color: var(--text-primary); margin-bottom: 0.25rem;">Color Palette</h4>
+              <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0;">Primary: Deep Charcoal (#0d0d0f)<br>Accent: Electric Blue (#2563eb)<br>Highlight: Luxury Gold/Pink Accent (#e91e63)</p>
+            </div>
+          </div>
+
+          <!-- 12. Interactive Prototype -->
+          <h2>Interactive Prototype</h2>
+          <p>
+            The interactive mobile flow was prototyped to test and validate transition speeds.
+          </p>
+          <div style="background: var(--bg-secondary); border: 1px solid rgba(37,99,235,0.15); border-radius: 8px; padding: var(--space-md); text-align: center; margin: var(--space-md) 0;">
+            <h4 style="font-family: var(--font-sans); text-transform: none; margin-bottom: 0.5rem;">Experience the Redesigned Flow</h4>
+            <p style="font-size: 0.95rem; color: var(--text-secondary); max-width: 500px; margin: 0 auto 1rem auto;">
+              Navigate through categories, filter products, and checkout using the high-fidelity interactive prototype.
+            </p>
+            <a href="https://www.figma.com/design/KhTpJ50PBrB1JkUsra6KYr/CA4_-DESIGN_Prototype?node-id=0-1&t=8n8aA6AmVlZ2wgUt-1" target="_blank" class="btn btn-primary">Open Figma Prototype</a>
+          </div>
+
+          <!-- 13. Reflection & Learnings -->
+          <h2>Reflection & Learnings</h2>
+          <div style="background: var(--bg-secondary); padding: var(--space-sm) var(--space-md); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0;">
+            <ul style="padding-left: var(--space-sm); font-size: 0.95rem; color: var(--text-secondary); list-style: none;">
+              <li style="margin-bottom: var(--space-xs);">
+                <strong>1. Heuristic audits must focus on key tasks:</strong> Auditing 13 core screens rather than random pages helped me focus on navigation and checkout friction points.
+              </li>
+              <li style="margin-bottom: var(--space-xs);">
+                <strong>2. Systems Thinking:</strong> My CS background helped me treat addresses and coupons as dynamic API services rather than text fields, resulting in a cleaner UI flow.
+              </li>
+              <li style="margin-bottom: 0;">
+                <strong>3. Balancing Goals:</strong> Designing UX involves balancing user tasks (fast checkout) with business needs (displaying details), leading to features like color swatches on search list pages.
+              </li>
+            </ul>
+          </div>
+          
+          <div style="text-align: center; margin-top: var(--space-lg);">
+            <a href="#work" class="btn btn-secondary">Back to Design Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECONDARY PROJECT: CONNEQT CASE STUDY -->
+    <div id="project-conneqt" class="view case-study-view conneqt-theme">
+      <div class="container">
+        <div class="case-study-hero">
+          <a href="#work" class="btn-text" style="margin-bottom: var(--space-sm);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: rotate(180deg);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            Back to Design Work
+          </a>
+          <h1 class="case-study-title" style="font-size: clamp(2rem, 4.5vw, 3.8rem); line-height: 1.1;">Conneqt &mdash; Reimagining Local Discovery &amp; Networking</h1>
+          <p class="lead" style="max-width: 850px; margin-top: 1rem;">
+            A product concept exploring how people can discover professionals, services, opportunities, and meaningful connections within their local communities through a unified platform.
+          </p>
+
+          <div class="case-study-meta-grid">
+            <div class="case-study-meta-item">
+              <h4>Role</h4>
+              <p>UX Researcher &amp; Product Designer</p>
+            </div>
+            <div class="case-study-meta-item">
+              <h4>Type</h4>
+              <p>Product Discovery &amp; Concept Development</p>
+            </div>
+            <div class="case-study-meta-item">
+              <h4>Methods</h4>
+              <p>Primary Research, Secondary Research, Information Architecture, Wireframing</p>
+            </div>
+            <div class="case-study-meta-item">
+              <h4>Tools</h4>
+              <p>Figma (Prototype Link Coming Soon)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 1: Hero Conceptual Visual -->
+        <div class="network-graph-container">
+          <svg viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="300" cy="225" r="180" stroke="rgba(16, 185, 129, 0.04)" stroke-width="1" stroke-dasharray="4 4" />
+            <circle cx="300" cy="225" r="100" stroke="rgba(16, 185, 129, 0.05)" stroke-width="1" stroke-dasharray="4 4" />
+            <circle cx="300" cy="225" r="20" stroke="rgba(16, 185, 129, 0.08)" stroke-width="1" />
+            
+            <path d="M300 225 L160 120" stroke="rgba(16, 185, 129, 0.15)" stroke-width="1.5" stroke-dasharray="4 4" />
+            <path d="M300 225 L440 140" stroke="rgba(16, 185, 129, 0.15)" stroke-width="1.5" />
+            <path d="M300 225 L210 320" stroke="rgba(16, 185, 129, 0.15)" stroke-width="1.5" />
+            <path d="M300 225 L400 320" stroke="rgba(16, 185, 129, 0.15)" stroke-width="1.5" stroke-dasharray="2 2" />
+            <path d="M300 225 L300 70" stroke="rgba(16, 185, 129, 0.15)" stroke-width="1.5" />
+            
+            <path d="M160 120 L300 70" stroke="rgba(16, 185, 129, 0.08)" stroke-width="1" stroke-dasharray="3 3" />
+            <path d="M440 140 L300 70" stroke="rgba(16, 185, 129, 0.08)" stroke-width="1" />
+            <path d="M440 140 L400 320" stroke="rgba(16, 185, 129, 0.08)" stroke-width="1" stroke-dasharray="3 3" />
+            <path d="M210 320 L400 320" stroke="rgba(16, 185, 129, 0.08)" stroke-width="1" />
+            <path d="M210 320 L160 120" stroke="rgba(16, 185, 129, 0.08)" stroke-width="1" />
+            
+            <g class="network-node">
+              <circle cx="300" cy="225" r="10" fill="#10b981" />
+              <circle cx="300" cy="225" r="20" stroke="#10b981" stroke-width="1" stroke-opacity="0.3" />
+            </g>
+            
+            <g class="network-node">
+              <circle cx="160" cy="120" r="7" fill="#10b981" />
+              <text x="160" y="100" text-anchor="middle" fill="#cbd5e1" font-size="10" font-family="var(--font-sans)" font-weight="600" letter-spacing="0.05em">SERVICES</text>
+            </g>
+            
+            <g class="network-node">
+              <circle cx="440" cy="140" r="7" fill="#10b981" />
+              <text x="440" y="120" text-anchor="middle" fill="#cbd5e1" font-size="10" font-family="var(--font-sans)" font-weight="600" letter-spacing="0.05em">PROFESSIONALS</text>
+            </g>
+            
+            <g class="network-node">
+              <circle cx="210" cy="320" r="7" fill="#10b981" />
+              <text x="210" y="342" text-anchor="middle" fill="#cbd5e1" font-size="10" font-family="var(--font-sans)" font-weight="600" letter-spacing="0.05em">COMMUNITIES</text>
+            </g>
+            
+            <g class="network-node">
+              <circle cx="400" cy="320" r="7" fill="#10b981" />
+              <text x="400" y="342" text-anchor="middle" fill="#cbd5e1" font-size="10" font-family="var(--font-sans)" font-weight="600" letter-spacing="0.05em">COLLABORATIONS</text>
+            </g>
+            
+            <g class="network-node">
+              <circle cx="300" cy="70" r="7" fill="#10b981" />
+              <text x="300" y="50" text-anchor="middle" fill="#cbd5e1" font-size="10" font-family="var(--font-sans)" font-weight="600" letter-spacing="0.05em">INTEREST SPACES</text>
+            </g>
+            
+            <circle cx="230" cy="172" r="2.5" fill="#34d399" />
+            <circle cx="370" cy="182" r="2.5" fill="#34d399" />
+            <circle cx="255" cy="272" r="2.5" fill="#34d399" />
+            <circle cx="350" cy="272" r="2.5" fill="#34d399" />
+            <circle cx="300" cy="147" r="2.5" fill="#34d399" />
+          </svg>
+        </div>
+
+        <div class="case-study-content" style="margin-top: var(--space-md);">
+          <!-- Section 2: The Observation -->
+          <h2>The Observation</h2>
+          <p>
+            The idea for Conneqt originated from a direct observation of day-to-day friction within my own community. Today, local communication and discovery are highly fragmented:
+          </p>
+          <ul>
+            <li><strong>Scattered Touchpoints:</strong> Neighbors frequently resort to asking for recommendations in unorganized, hyperactive WhatsApp group chats, local Facebook pages, or word-of-mouth networks.</li>
+            <li><strong>Context Collision:</strong> Business advertising, casual community chat, emergency alerts, and social meetups all happen in the same linear chat streams, causing key inquiries to get buried quickly.</li>
+            <li><strong>Trust Guesswork:</strong> Finding available local plumbers, electricians, or freelance designers requires substantial manual outreach, with no persistent method to evaluate their credentials, proximity, or reliability.</li>
+          </ul>
+          <p>
+            Rather than a simple visual redesign of an existing tool, this project is a bottom-up product discovery and concept development study. It is an exploration of how design thinking can translate unstructured local interactions into a logical, verified hyperlocal network.
+          </p>
+
+          <!-- Section 3: Understanding the Problem -->
+          <h2>Understanding the Problem</h2>
+          <div class="case-study-callout" style="border-left-color: var(--accent);">
+            <p><strong>Core Problem Statement:</strong></p>
+            <p style="font-size: 1.15rem; font-style: normal; margin-top: 0.5rem; color: var(--text-primary); font-weight: 400;">
+              "How might we build a trusted hyperlocal network that structures local service discovery and neighborhood collaboration, allowing users to verify, contact, and book community resources without fragmented context-switching?"
+            </p>
+          </div>
+          <p>
+            To establish a solid product foundation, I framed the challenge across three dimensions:
+          </p>
+          <h3>Why This Matters</h3>
+          <p>
+            Physical communities are becoming increasingly disconnected. While global networking is solved by platforms like LinkedIn, discovery within a 5-mile radius remains highly inefficient. Local service providers lose business to external corporations because neighbors simply do not know they exist, and residents face a "trust deficit" when hiring independent professionals.
+          </p>
+          <h3>Who Experiences It</h3>
+          <ol>
+            <li><strong>Service Seekers:</strong> Homeowners or renters who need immediate, reliable local help (e.g. electricians, tutors, photographers) and prefer community-recommended resources.</li>
+            <li><strong>Local Freelancers &amp; Providers:</strong> Independent neighborhood workers who lack large advertising budgets and need a structured profile to showcase their availability and skills nearby.</li>
+            <li><strong>Community Builders:</strong> Individuals looking to organize interest hubs, sports clubs, or volunteer groups in their immediate area.</li>
+          </ol>
+
+          <!-- Section 4: Research & Discovery -->
+          <h2>Research &amp; Discovery</h2>
+          <p>
+            To move beyond anecdotal observation, I structured the research phase into Primary and Secondary tracks. This section is designed to house actual demographic surveys and qualitative user interview insights as the concept develops.
+          </p>
+          
+          <div class="research-grid">
+            <div class="research-card">
+              <span class="research-placeholder-tag">Primary Research</span>
+              <h3>User Interviews &amp; Surveys</h3>
+              <p>
+                A planned cohort study of local residents and independent service providers. The goal is to measure spatial search frequency, key friction points during booking, and common referral networks.
+              </p>
+              <div class="research-data-placeholder">
+                [Qualitative Interview Log Placement]<br>
+                User interview transcripts, demographic graphs, and survey results will be integrated here as primary research concludes.
+              </div>
+              <p style="margin-top: 1rem; font-size: 0.95rem; font-style: italic; color: var(--text-primary);">
+                "I asked in our building's WhatsApp group for an electrician recommendation. Three people answered, but two were unavailable and the other lived 10 miles away. It took half a day just to schedule a basic inspection." <br>
+                <span style="color: var(--accent); font-weight: 500; font-size: 0.85rem; display: block; margin-top: 0.5rem;">— Resident, Usability Participant</span>
+              </p>
+            </div>
+            
+            <div class="research-card">
+              <span class="research-placeholder-tag">Secondary Research</span>
+              <h3>Market Mapping &amp; Friction Analysis</h3>
+              <p>
+                Reviewing existing hyperlocal products (Yelp, Nextdoor, Angi) to analyze why they fail to bridge the social and transactional gaps in small-scale communities.
+              </p>
+              <div class="research-data-placeholder">
+                [Competitor Mapping Placement]<br>
+                Comparative tables measuring onboarding flows, location accuracy, and communication channels of existing platforms will be placed here.
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 5: Key Insights -->
+          <h2>Key Insights</h2>
+          <p>
+            By synthesizing observations and research frameworks, I isolated three core user insights. The product system must map observations directly to user needs, translating them into design opportunities:
+          </p>
+
+          <div class="insights-chain-grid">
+            <div class="insight-chain-card">
+              <div class="insight-step">
+                <span class="insight-label">Observation</span>
+                <span class="insight-value">Users rely on WhatsApp groups for recommendations because they trust fellow neighbors over anonymous online directories.</span>
+              </div>
+              <div class="insight-step">
+                <span class="insight-label">User Need</span>
+                <span class="insight-value">A mechanism to visually confirm a provider has successfully worked for actual neighbors.</span>
+              </div>
+              <div class="insight-step">
+                <span class="insight-label">Opportunity</span>
+                <span class="insight-value">Introduce community vouching badges and list recommendations showing "Vouched by 4 neighbors".</span>
+              </div>
+            </div>
+
+            <div class="insight-chain-card">
+              <div class="insight-step">
+                <span class="insight-label">Observation</span>
+                <span class="insight-value">Freelancers frequently post service availability in social groups, where the posts are instantly buried by normal conversation.</span>
+              </div>
+              <div class="insight-step">
+                <span class="insight-label">User Need</span>
+                <span class="insight-value">A persistent service directory separated from dynamic, linear conversation feeds.</span>
+              </div>
+              <div class="insight-step">
+                <span class="insight-label">Opportunity</span>
+                <span class="insight-value">Build a persistent, map-integrated professional profile indexing availability, reviews, and bookings.</span>
+              </div>
+            </div>
+
+            <div class="insight-chain-card">
+              <div class="insight-step">
+                <span class="insight-label">Observation</span>
+                <span class="insight-value">Users feel uncomfortable coordinating transactions and service detail terms across multiple disjointed messaging apps.</span>
+              </div>
+              <div class="insight-step">
+                <span class="insight-label">User Need</span>
+                <span class="insight-value">A single communication channel that houses chat, specifications, and scheduling.</span>
+              </div>
+              <div class="insight-step">
+                <span class="insight-label">Opportunity</span>
+                <span class="insight-value">Integrate in-chat booking widgets that generate structured receipts and status confirmations.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 6: Defining the Opportunity -->
+          <h2>Defining the Opportunity</h2>
+          <p>
+            To bridge research and visual design, the observations were translated into five core product pillars:
+          </p>
+          <div class="metric-row">
+            <div class="metric-card">
+              <div class="metric-number">01</div>
+              <div class="metric-label">Trust &amp; Vouching</div>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; margin-bottom: 0;">
+                Validating local providers through neighbor connections rather than raw review metrics.
+              </p>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number">02</div>
+              <div class="metric-label">Spatial Discovery</div>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; margin-bottom: 0;">
+                Allowing users to search, filter, and discover services within defined physical radius parameters.
+              </p>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number">03</div>
+              <div class="metric-label">Interest Spaces</div>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; margin-bottom: 0;">
+                Providing local interest channels for organic social networking and collaboration.
+              </p>
+            </div>
+          </div>
+          <div class="metric-row" style="grid-template-columns: 1fr 1fr; max-width: 800px; margin: 0 auto;">
+            <div class="metric-card">
+              <div class="metric-number">04</div>
+              <div class="metric-label">Transactional Flow</div>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; margin-bottom: 0;">
+                Replacing manual negotiation with a structured, chat-based scheduling and booking loop.
+              </p>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number">05</div>
+              <div class="metric-label">Provider Presence</div>
+              <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.5rem; margin-bottom: 0;">
+                Empowering independent local workers with a clean, searchable business card presence.
+              </p>
+            </div>
+          </div>
+
+          <!-- Section 7: Product Vision -->
+          <h2 style="margin-top: var(--space-lg);">Product Vision</h2>
+          <p>
+            Conneqt is proposed as a unified, map-centric mobile ecosystem where social community spaces and professional transaction services exist in harmony.
+          </p>
+          <div class="research-grid" style="margin-bottom: var(--space-md);">
+            <div class="research-card">
+              <h4 style="color: var(--accent); margin-bottom: 0.5rem;">What is Conneqt?</h4>
+              <p style="font-size: 0.95rem; margin-bottom: 0;">
+                Conneqt is a location-aware mobile application designed to index local service providers, showcase neighborhood communities, and facilitate trust-backed bookings in a single spatial hierarchy.
+              </p>
+            </div>
+            <div class="research-card">
+              <h4 style="color: var(--accent); margin-bottom: 0.5rem;">Who is it for?</h4>
+              <p style="font-size: 0.95rem; margin-bottom: 0;">
+                It serves residents seeking immediate services, local independent service providers seeking organic reach, and neighbors looking to network based on physical proximity.
+              </p>
+            </div>
+          </div>
+
+          <!-- Section 8: Information Architecture -->
+          <h2>Information Architecture</h2>
+          <p>
+            A core challenge was resolving the navigational hierarchy. If commercial transactions (hiring) and social networking (communities) are mixed poorly, the app experiences cognitive clutter. 
+          </p>
+          <div class="research-card" style="margin-bottom: var(--space-md); border-style: dashed;">
+            <div style="text-align: center; padding: var(--space-md) 0; color: var(--text-muted);">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: var(--space-sm); color: var(--accent);"><rect x="3" y="3" width="7" height="9"></rect><rect x="14" y="3" width="7" height="5"></rect><rect x="14" y="12" width="7" height="9"></rect><rect x="3" y="16" width="7" height="5"></rect></svg>
+              <h4 style="color: var(--text-primary); text-transform: none; margin-bottom: 4px;">Information Architecture Map Placeholder</h4>
+              <p style="font-size: 0.85rem; max-width: 450px; margin: 0 auto;">
+                The detailed structural flowchart mapping the navigation directory from Splash Onboarding to Search Map, Community channels, and chat booking nodes will be placed here.
+              </p>
+            </div>
+          </div>
+          <p>
+            The hierarchy utilizes a clear **three-pronged root tree**: User intent is captured immediately during onboarding ("What are you looking for?") and routes the viewport to the appropriate contextual layout, minimizing cross-tab friction.
+          </p>
+
+          <!-- Section 9: User Journey -->
+          <h2>User Journey</h2>
+          <p>
+            The primary user journey maps how a resident transitions from discovering the platform to coordinating a successful collaboration:
+          </p>
+          
+          <div class="journey-flow">
+            <div class="journey-node active">
+              <div class="journey-circle">1</div>
+              <div class="journey-node-title">Discover</div>
+              <div class="journey-node-desc">Onboarding maps spatial intent (Services, People, or Communities).</div>
+            </div>
+            
+            <div class="journey-node">
+              <div class="journey-circle">2</div>
+              <div class="journey-node-title">Explore</div>
+              <div class="journey-node-desc">Maps and distance dials filter active local options.</div>
+            </div>
+            
+            <div class="journey-node">
+              <div class="journey-circle">3</div>
+              <div class="journey-node-title">Connect</div>
+              <div class="journey-node-desc">Direct messaging coordinates details, pricing, and availability.</div>
+            </div>
+            
+            <div class="journey-node">
+              <div class="journey-circle">4</div>
+              <div class="journey-node-title">Collaborate</div>
+              <div class="journey-node-desc">Confirming transactional booking or joining local event hubs.</div>
+            </div>
+          </div>
+
+          <!-- Section 10: Wireframe Exploration -->
+          <h2>Wireframe Exploration</h2>
+          <p>
+            To evaluate the layout structure, I developed a series of hand-sketched wireframe concepts. These sketches represent early-stage explorations, prioritizing interaction flows, intent segmenting, and spatial information hierarchies:
+          </p>
+
+          <div class="wireframe-grid">
+            <div class="wireframe-card">
+              <div class="wireframe-img-wrapper">
+                <img src="assets/conneqt_sketches_sheet2.jpg" alt="Conneqt Wireframe Sheet 2 - Splash, Onboarding choices, Search Dashboard, and Map view">
+              </div>
+              <div class="wireframe-caption">
+                <h4>Sheet 1: Onboarding, Dashboard &amp; Spatial Map</h4>
+                <p>
+                  Exploring the initial entry point. Onboarding filters user intent early ("What are you looking for?"). The search dashboard houses primary CTAs ("Find Services"), local providers list, and maps showcasing verified markers in immediate proximity.
+                </p>
+              </div>
+            </div>
+            
+            <div class="wireframe-card">
+              <div class="wireframe-img-wrapper">
+                <img src="assets/conneqt_sketches_sheet1.jpg" alt="Conneqt Wireframe Sheet 1 - Communities, Electrician Profile, Chat layout, and Booking Confirmation">
+              </div>
+              <div class="wireframe-caption">
+                <h4>Sheet 2: Community Spaces, Profile &amp; Booking Chat</h4>
+                <p>
+                  Visualizing interest communities ("Tech Builders - HYD"), service provider profiles showing reviews, availability status, and direct book buttons. The chat flow integrates a booking widget leading to a structured checkout confirmation.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <h3>Key Design Rationale from Sketches</h3>
+          <ul>
+            <li><strong>Intent-Driven Onboarding:</strong> By presenting three explicit paths—Find Services, Connect with People, Join Communities—on onboarding, we prevent cognitive overload and customize the user's home state.</li>
+            <li><strong>Spatial Map Contextualization:</strong> Service search shows a map view where providers are pins. Selecting a pin slides up a card with critical metadata (rating stars, provider name "RIVEK", distance "1km"), giving geographical context instantly.</li>
+            <li><strong>Direct Chat-to-Booking Loop:</strong> Traditional directories force users out of the platform to call providers. The chat screen has a direct "Confirm" widget that structures transaction pricing (e.g. Rs. 550) and coordinates status inline.</li>
+          </ul>
+
+          <!-- Section 11: Concept Screens -->
+          <h2>Concept Exploration</h2>
+          <p>
+            High-fidelity concept explorations will be placed here. Unlike final, rigid design prototypes, these layouts are structured to show interactive state patterns and UI exploration directions:
+          </p>
+
+          <div class="concept-screens-grid">
+            <div class="concept-screen-placeholder">
+              <div class="concept-screen-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+              </div>
+              <div class="concept-screen-title">Spatial Map UI Concept</div>
+              <div class="concept-screen-desc">
+                High-fidelity interface design exploring map styling, interactive pin overlays, and bottom sheet profile cards.
+              </div>
+            </div>
+            
+            <div class="concept-screen-placeholder">
+              <div class="concept-screen-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              </div>
+              <div class="concept-screen-title">Chat Booking Flow Concept</div>
+              <div class="concept-screen-desc">
+                High-fidelity design exploring chat transaction cards, scheduling interfaces, and confirmation tickets.
+              </div>
+            </div>
+          </div>
+
+          <!-- Section 12: Future Vision -->
+          <h2>Future Vision</h2>
+          <p>
+            Hyperlocal platforms gain value as network density increases. Future iterations of Conneqt will explore forward-looking product concepts that extend beyond basic UI layouts:
+          </p>
+          <ul>
+            <li><strong>AI-Powered Local Matchmaking:</strong> Utilizing location data and skill tags to match local freelance designers and developers for collaborative community projects.</li>
+            <li><strong>Multi-Tier Trust Networks:</strong> Developing a community-led vouching protocol where neighborhood leads can endorse local service providers, reducing trust anxiety.</li>
+            <li><strong>Proximity-Triggered Opportunities:</strong> Location-aware, opt-in notifications displaying time-sensitive skills gaps or opportunities in the immediate vicinity (e.g. "Community event looking for a local photographer within 2 miles").</li>
+          </ul>
+
+          <!-- Section 13: Reflection & Learnings -->
+          <h2>Reflection &amp; Learnings</h2>
+          <div class="case-study-callout" style="border-left-color: var(--accent);">
+            <p><strong>Editorial Reflection:</strong></p>
+            <p style="font-size: 0.95rem; font-style: normal; margin-top: 0.5rem; color: var(--text-secondary); line-height: 1.6;">
+              "Building Conneqt reinforced the value of looking at everyday interactions. Complex, fragmented habits—like scrolling through messy WhatsApp groups to find a local plumber—are rich opportunities for product thinking. As a designer, my role is to identify these patterns, isolate key user needs, and translate them into a structured visual architecture. By prioritizing research, information architecture, and early wireframing, Conneqt shows how logical systems can bring clarity to unstructured real-world spaces."
+            </p>
+          </div>
+
+          <div style="text-align: center; margin-top: var(--space-lg);">
+            <a href="#work" class="btn btn-secondary">Back to Design Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- TERTIARY PROJECT: HUSHH WALLET CASE STUDY -->
+    <div id="project-hushh-wallet" class="view case-study-view">
+      <div class="container">
+        <div class="case-study-hero">
+          <a href="#work" class="btn-text" style="margin-bottom: var(--space-sm);">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: rotate(180deg);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            Back to Design Work
+          </a>
+          <h1 class="case-study-title">Hushh Wallet &mdash; Secure Digital Data Wallet</h1>
+          <p class="lead" style="max-width: 800px;">
+            Designed a complete secure digital data wallet system for Hushh, allowing users to securely store and share personal credentials in customizable cards with granular privacy levels.
+          </p>
+
+          <div class="case-study-meta-grid">
+            <div class="case-study-meta-item">
+              <h4>Role</h4>
+              <p>UI/UX Designer</p>
+            </div>
+            <div class="case-study-meta-item">
+              <h4>Type</h4>
+              <p>Figma Design Assignment</p>
+            </div>
+            <div class="case-study-meta-item">
+              <h4>Skills</h4>
+              <p>UI/UX Design, Figma, Product Thinking, User Flow, Interaction Design</p>
+            </div>
+            <div class="case-study-meta-item">
+              <h4>Core Goal</h4>
+              <p>Enable card-based data sovereignty</p>
+            </div>
+          </div>
+          
+          <div style="margin-top: var(--space-md);">
+            <a href="https://www.figma.com/design/6RflSxlrodgbx8IX4kc6M0/Hushh-Wallet?t=8n8aA6AmVlZ2wgUt-1" target="_blank" rel="noopener" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              Open Figma Design File
+            </a>
+          </div>
+        </div>
+
+        <div class="case-study-hero-img" style="background-color: var(--bg-secondary); padding: var(--space-md) 0; display: flex; justify-content: center; gap: var(--space-md); flex-wrap: wrap;">
+          <div class="hushh-phone-mockup" style="max-width: 250px; border-width: 6px; border-radius: 20px;">
+            <img src="assets/hushh_screen1.png" alt="Hushh Wallet Dashboard UI Screen">
+          </div>
+          <div class="hushh-phone-mockup" style="max-width: 250px; border-width: 6px; border-radius: 20px;">
+            <img src="assets/hushh_screen2.png" alt="Hushh Wallet QR Detail UI Screen">
+          </div>
+        </div>
+
+        <div class="case-study-content">
+          <h2>Project Overview</h2>
+          <p>
+            Hushh Wallet is a mobile application concept developed as part of a product design assignment for Hushh. The platform addresses a growing digital challenge: personal data sovereignty. 
+          </p>
+          <p>
+            Instead of giving third-party services and e-commerce applications unrestricted, open access to your personal details, Hushh structures your data into visual cards. When a service requests details (such as your clothing sizes, food preferences, or basic profile data), you can share just the relevant card at a specific privacy level for that transaction.
+          </p>
+
+          <h2>Core UX Pillars</h2>
+          <ul>
+            <li><strong>Card-Based Data Storage:</strong> Structures personal data into customizable, theme-colored cards across multiple categories (basics, footwear sizes, food preferences, and brand affinities).</li>
+            <li><strong>Three Detail Levels (Basic, Standard, Full):</strong> Users maintain complete sovereignty over what data is shared. A user can toggle between a Basic level (e.g., shoe size), Standard level (e.g., shoe size + width + brand affinity), or Full level (e.g., shoe size, measurements, transaction history).</li>
+            <li><strong>Google Wallet &amp; Apple Wallet Integration-Ready:</strong> Designs are structured to comply with official pass specifications, allowing card configurations to be exported natively into existing digital wallets.</li>
+            <li><strong>Clean Hierarchy:</strong> Minimizes cognitive friction with simple navigation, a clear tabs system, and immediate access to sharing controls.</li>
+          </ul>
+
+          <h2>High-Fidelity Interface Showcase</h2>
+          <p>
+            Below are the high-fidelity screens designed in Figma, showing the primary user flows, data structures, and privacy settings of the Hushh Wallet:
+          </p>
+        </div>
+
+        <!-- Section: High-Fidelity UI Mockups Grid -->
+        <div class="hushh-mockups-grid">
+          <div class="hushh-phone-mockup">
+            <img src="assets/hushh_screen1.png" alt="Hushh Wallet Home Dashboard screen showing card deck stack and transaction history">
+          </div>
+          <div class="hushh-phone-mockup">
+            <img src="assets/hushh_screen2.png" alt="My Cards detail view showing dynamic QR code sharing options">
+          </div>
+          <div class="hushh-phone-mockup">
+            <img src="assets/hushh_screen3.png" alt="Settings screen displaying privacy default choices and auto-revoke controls">
+          </div>
+          <div class="hushh-phone-mockup">
+            <img src="assets/hushh_screen4.png" alt="Personal and Basics card page detailing body measurements and brand mappings">
+          </div>
+          <div class="hushh-phone-mockup">
+            <img src="assets/hushh_screen5.png" alt="Cards deck container visualization stack">
+          </div>
+        </div>
+
+        <div class="case-study-content" style="margin-top: 0;">
+          <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); margin-bottom: var(--space-lg);">
+            <div>
+              <h3>Dashboard &amp; Deck Stack</h3>
+              <p style="font-size: 0.95rem; color: var(--text-secondary);">
+                The primary screen (Screen 1 &amp; 5) provides a standard digital wallet experience. Customizable data cards are stacked in a physical deck. Users can tap to expand cards, swipe to rearrange, or use quick action triggers like "Share Card" and "Add Card" immediately. Recent transactions display who has requested data and what level of detail was shared.
+              </p>
+            </div>
+            <div>
+              <h3>Dynamic QR Sharing</h3>
+              <p style="font-size: 0.95rem; color: var(--text-secondary);">
+                When a user wants to share information (Screen 2), they can select their desired sharing tier (Basic, Medium, Standard) and generate a dynamic QR code. Scanners read only the authorized parameters, preventing silent data collection.
+              </p>
+            </div>
+          </div>
+          <div class="case-study-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-md); margin-bottom: var(--space-lg);">
+            <div>
+              <h3>Granular Privacy Settings</h3>
+              <p style="font-size: 0.95rem; color: var(--text-secondary);">
+                The settings panel (Screen 3) enables robust privacy rules. Users can opt-in to consent popups ("Always ask before sharing"), set default sharing levels, and activate auto-revoke triggers that wipe local merchant permissions after the transaction is complete.
+              </p>
+            </div>
+            <div>
+              <h3>Data &amp; Brand Mappings</h3>
+              <p style="font-size: 0.95rem; color: var(--text-secondary);">
+                The card detail dashboard (Screen 4) houses user-input metrics. For e-commerce mappings, users can save fit parameters (Bust, Waist, Hips), record brand mappings (e.g. Nike: Medium), and specify fit preferences (fitted vs. relaxed) to receive accurate retail sizing without disclosing raw measurement data.
+              </p>
+            </div>
+          </div>
+
+          <h2>Reflections &amp; Key Learnings</h2>
+          <p>
+            Designing the Hushh Wallet emphasized how UI/UX can serve as an enabler of data sovereignty. In e-commerce and retail contexts, users are often forced to choose between convenience and privacy. By encapsulating user details into standard Wallet pass structures, Hushh shows how user-centered design can make security and granular consent highly intuitive, seamless, and frictionless.
+          </p>
+
+          <div style="text-align: center; margin-top: var(--space-lg);">
+            <a href="#work" class="btn btn-secondary">Back to Design Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- PRODUCT NOTES: INSTAGRAM DETAIL -->
+    <div id="note-instagram" class="view note-view">
+      <div class="container note-page-content">
+        <a href="#notes" class="btn-text" style="margin-bottom: var(--space-sm);">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: rotate(180deg);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          Back to Notes
+        </a>
+        <div class="note-page-header">
+          <h1>Instagram: Reconciling Feed and Shopping UX</h1>
+          <div class="note-page-meta">
+            <span>Product Psychology</span>
+            <span>•</span>
+            <span>May 2026</span>
+          </div>
+        </div>
+        <p>
+          Instagram has consistently tried to blend social connections with shopping. While this makes business sense, the design introduces cognitive friction for users.
+        </p>
+        <h3>1. Conflicting Mindsets</h3>
+        <p>
+          Users browse Instagram in a relaxed, passive state. Shopping, on the other hand, requires active evaluation (comparing prices, reviewing sizes, checking delivery dates). Mixing these behaviors in a single layout creates cognitive friction.
+        </p>
+        <h3>2. Navigational Disruptions</h3>
+        <p>
+          When users click on a product tag in a post, they are taken away from their feed to a shop catalog page. When they click back, their feed often refreshes, losing their original position. This discourages interaction because users are afraid of losing their place in the feed.
+        </p>
+        <h3>3. Trust Loops</h3>
+        <p>
+          Shopping on social apps requires trust. Instagram's checkout system hides merchant information, making it hard to see if a seller is reliable. Exposing store reviews and policies during checkout would help users feel more confident and complete purchases.
+        </p>
+      </div>
+    </div>
+
+    <!-- PRODUCT NOTES: AI TRY-ON DETAIL -->
+    <div id="note-ai-tryon" class="view note-view">
+      <div class="container note-page-content">
+        <a href="#notes" class="btn-text" style="margin-bottom: var(--space-sm);">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="transform: rotate(180deg);"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          Back to Notes
+        </a>
+        <div class="note-page-header">
+          <h1>AI Virtual Try-On Trust Cycles</h1>
+          <div class="note-page-meta">
+            <span>HCI & AI</span>
+            <span>•</span>
+            <span>April 2026</span>
+          </div>
+        </div>
+        <p>
+          AI-driven virtual try-on features are becoming common on fashion platforms. However, users are often skeptical of the generated results.
+        </p>
+        <h3>1. The Authenticity Gap</h3>
+        <p>
+          Users are concerned that AI-generated images look too perfect and won't match how the clothes look in real life. Designers can build trust by showing the AI's confidence levels and clearly labeling images as synthetic.
+        </p>
+        <h3>2. Managing Latency</h3>
+        <p>
+          Generating AI images takes time, which can interrupt the shopping flow. Using clean loading animations, tips, and background rendering helps keep users engaged while they wait.
+        </p>
+        <h3>3. Interactive Controls</h3>
+        <p>
+          Instead of just showing a static image, letting users adjust sizes, fabric draping, and lighting helps build trust. This interactivity makes the AI feel like a helpful assistant rather than a black box.
+        </p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Global Footer -->
+  <footer>
+    <div class="container" style="display: flex; flex-direction: column; gap: var(--space-sm);">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: var(--space-sm); border-bottom: 1px solid var(--border-subtle); padding-bottom: var(--space-sm);">
+        <div style="font-size: 0.9rem; color: var(--text-secondary);">
+          Looking for engineering &amp; full-stack coding details? 
+        </div>
+        <a href="#tech-projects" class="btn btn-github" style="padding: 0.4rem 1rem; font-size: 0.8rem;">
+          View Tech Projects
+        </a>
+      </div>
+      <div class="footer-inner" style="margin-top: 0;">
+        <div class="copyright">
+          &copy; 2026 Sumanth. Designed & developed with code & empathy.
+        </div>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#work">Design Work</a></li>
+          <li><a href="#tech-projects">Tech Projects</a></li>
+          <li><a href="#notes">Product Notes</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
